@@ -5,62 +5,52 @@ import './models/category.dart';
 const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
-    title: 'Jayesh',
+    title: 'Italian',
     color: Colors.purple,
   ),
   Category(
     id: 'c2',
-    title: 'Kitretsu',
+    title: 'Quick & Easy',
     color: Colors.red,
   ),
   Category(
     id: 'c3',
-    title: 'Hetzz',
+    title: 'Hamburgers',
     color: Colors.orange,
   ),
   Category(
     id: 'c4',
-    title: 'Rushangg',
+    title: 'German',
     color: Colors.amber,
   ),
   Category(
     id: 'c5',
-    title: 'Akshay',
+    title: 'Light & Lovely',
     color: Colors.blue,
   ),
   Category(
     id: 'c6',
-    title: 'Aditya',
+    title: 'Exotic',
     color: Colors.green,
   ),
   Category(
     id: 'c7',
-    title: 'Heet',
+    title: 'Breakfast',
     color: Colors.lightBlue,
   ),
   Category(
     id: 'c8',
-    title: 'Aniket',
+    title: 'Asian',
     color: Colors.lightGreen,
   ),
   Category(
     id: 'c9',
-    title: 'Sanika',
+    title: 'French',
     color: Colors.pink,
   ),
   Category(
     id: 'c10',
-    title: 'Kevin',
+    title: 'Summer',
     color: Colors.teal,
-  ),
-  Category(
-    id: 'c10',
-    title: 'Nachiket',
-    color: Colors.orange,
-  ),
-  Category(
-    id: 'c10',
-    title: 'Tejas',
-    color: Colors.black,
   ),
 ];
