@@ -17,10 +17,12 @@ class CategoriesScreen extends StatelessWidget {
         children: DUMMY_CATEGORIES
             .map(
               (catData) => CategoryItem(
+                catData.id,
                 catData.title,
                 catData.color,
               ),
-            )
+            ) // this part is for map to list the map takes
+            //dummy data then converts it to a list for gridview
             .toList(),
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           childAspectRatio: 3 / 2,
