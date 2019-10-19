@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './models/category.dart';
-import './models/meals.dart';
+import './models/meal.dart';
 
 const DUMMY_CATEGORIES = const [
   Category(
@@ -86,8 +86,7 @@ const DUMMY_MEALS = const [
       'The sauce will be done once the spaghetti are.',
       'Feel free to add some cheese on top of the finished dish.'
     ],
-    
-    isJain: true,
+    isJain: false,
     isVegetarian: true,
     isLactoseFree: true,
   ),
@@ -114,7 +113,6 @@ const DUMMY_MEALS = const [
       'Layer ham, the pineapple and cheese on the white bread',
       'Bake the toast for round about 10 minutes in the oven at 200°C'
     ],
-    
     isJain: false,
     isVegetarian: false,
     isLactoseFree: false,
@@ -146,7 +144,6 @@ const DUMMY_MEALS = const [
       'Bruch buns with ketchup',
       'Serve burger with tomato, cucumber and onion'
     ],
-    
     isJain: false,
     isVegetarian: false,
     isLactoseFree: true,
@@ -181,7 +178,6 @@ const DUMMY_MEALS = const [
       'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
       'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
     ],
-    
     isJain: false,
     isVegetarian: false,
     isLactoseFree: false,
@@ -218,7 +214,7 @@ const DUMMY_MEALS = const [
       'Add salmon cubes and dressing'
     ],
     isJain: true,
-    isVegetarian: false,
+    isVegetarian: true,
     isLactoseFree: true,
   ),
   Meal(
@@ -253,7 +249,7 @@ const DUMMY_MEALS = const [
       'Serve with orange peel',
     ],
     isJain: true,
-    isVegetarian: false,
+    isVegetarian: true,
     isLactoseFree: false,
   ),
   Meal(
@@ -283,7 +279,7 @@ const DUMMY_MEALS = const [
       'Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.'
     ],
     isJain: true,
-    isVegetarian: false,
+    isVegetarian: true,
     isLactoseFree: false,
   ),
   Meal(
@@ -314,7 +310,7 @@ const DUMMY_MEALS = const [
       'Add coconut milk',
       'Serve with rice'
     ],
-    isJain: false,
+    isJain: true,
     isVegetarian: false,
     isLactoseFree: true,
   ),
@@ -363,7 +359,7 @@ const DUMMY_MEALS = const [
       'Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes.',
     ],
     isJain: true,
-    isVegetarian: false,
+    isVegetarian: true,
     isLactoseFree: false,
   ),
   Meal(
