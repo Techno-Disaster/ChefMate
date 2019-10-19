@@ -31,3 +31,4 @@ class Meal {
     this.isLactoseFree,
   });
 }
+
