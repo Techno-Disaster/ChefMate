@@ -29,7 +29,6 @@ subprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-<<<<<<< HEAD
 
 buildscript {
   repositories {
@@ -51,5 +50,3 @@ allprojects {
  
   }
 }
-=======
->>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
