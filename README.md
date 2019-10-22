@@ -1,4 +1,4 @@
-# ziggy
+# ChefMate
 
 A new Flutter project.
 

@@ -1,13 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
 
     package="com.example.chefmate">
     <uses-permission android:name="android.permission.INTERNET"/>
-=======
-    package="com.example.ziggy">
-<uses-permission android:name="android.permission.INTERNET" />
-
->>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -15,13 +9,8 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-<<<<<<< HEAD
-        android:label="chefmate"
-        android:icon="@mipmap/ic_launcher">
-=======
         android:label="ChefMate"
         android:icon="@mipmap/launcher_icon">
->>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
