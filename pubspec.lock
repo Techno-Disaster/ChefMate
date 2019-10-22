@@ -64,6 +64,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2"
+<<<<<<< HEAD
   firebase_auth:
     dependency: "direct main"
     description:
@@ -78,6 +79,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.0+9"
+=======
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
   flutter:
     dependency: "direct main"
     description: flutter
@@ -95,6 +98,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   google_sign_in:
     dependency: "direct main"
     description:
@@ -102,6 +106,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.7"
+=======
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
   image:
     dependency: transitive
     description:
@@ -228,4 +234,7 @@ packages:
     version: "2.2.0"
 sdks:
   dart: ">=2.4.0 <3.0.0"
+<<<<<<< HEAD
   flutter: ">=1.5.0 <2.0.0"
+=======
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad

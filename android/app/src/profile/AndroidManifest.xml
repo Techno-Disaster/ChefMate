@@ -1,7 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.chefmate">
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET"/>
+=======
+    package="com.example.ziggy">
+    <!-- Flutter needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+<uses-permission android:name="android.permission.INTERNET"/>
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
 </manifest>

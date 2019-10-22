@@ -321,7 +321,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.chefmate;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ziggy;
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -454,7 +458,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.chefmate;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ziggy;
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -481,7 +489,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.chefmate;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ziggy;
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

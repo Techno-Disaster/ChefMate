@@ -11,7 +11,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>chefmate</string>
+=======
+	<string>ChefMate</string>
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

@@ -38,12 +38,20 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId "com.example.chefmate"
+=======
+        applicationId "com.example.ziggy"
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
         minSdkVersion 16
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+<<<<<<< HEAD
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+=======
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
     }
 
     buildTypes {
@@ -62,6 +70,7 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     testImplementation 'junit:junit:4.12'
+<<<<<<< HEAD
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 }
@@ -76,3 +85,8 @@ dependencies {
 
 // Add to the bottom of the file
 apply plugin: 'com.google.gms.google-services'
+=======
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+>>>>>>> 4038a6f8be5ed38709d55fd2d9b07014988a84ad
