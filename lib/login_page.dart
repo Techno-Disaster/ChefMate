@@ -123,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
                         children: <Widget>[
                           FlatButton(
                             child: Text(
-                              'Register',
+                              'REGISTRATION PAGE',
                               style: TextStyle(
                                 fontSize: 14,
                                 color: Colors.black,
@@ -182,15 +182,13 @@ class _LoginPageState extends State<LoginPage> {
                 )
               : Container()),
           ButtonTheme(
-            height: 50,
+            minWidth: 200,
             buttonColor: Colors.white,
-            minWidth: 150,
             child: Padding(
-             padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
+              padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
               child: Row(
-                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Spacer(),
                   (!isGoogleSignIn
                       ? RaisedButton(
                           shape: RoundedRectangleBorder(
