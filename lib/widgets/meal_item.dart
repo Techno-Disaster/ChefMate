@@ -19,7 +19,6 @@ class MealItem extends StatelessWidget {
     @required this.id,
   });
 
-
   String get complexityText {
     switch (complexity) {
       case Complexity.Simple:
@@ -53,9 +52,7 @@ class MealItem extends StatelessWidget {
   }
 
   void selectMeal(BuildContext context) {
-    Navigator.of(context).pushNamed(
-      MealDetailScreen.routeName, arguments: id
-    );
+    Navigator.of(context).pushNamed(MealDetailScreen.routeName, arguments: id);
   }
 
   @override
@@ -91,7 +88,9 @@ class MealItem extends StatelessWidget {
                   child: Container(
                     width: 300,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15)),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(15),
+                      ),
                       color: Colors.black38,
                     ),
                     padding: EdgeInsets.symmetric(

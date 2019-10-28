@@ -7,7 +7,6 @@ class CategoriesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       appBar: AppBar(
         title: const Text('ChefMate'),
         centerTitle: true,
@@ -19,10 +18,11 @@ class CategoriesScreen extends StatelessWidget {
         children: DUMMY_CATEGORIES
             .map(
               (catData) => CategoryItem(
-                    catData.id,
-                    catData.title,
-                    catData.color,
-                  ),
+                catData.id,
+                catData.title,
+                catData.color,
+                catData.imageUrl,
+              ),
             )
             .toList(),
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
