@@ -1,16 +1,4 @@
 # ChefMate
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+We carry our phones with us everywhere we go — whether it be our living room or workplace — so why shouldn’t we venture into our kitchens with them? ChefMate is the next step in the complete mobile takeover, offering step-by-step instructions on how to make a fine oven-fried chimichanga, curate a weekly meal plan, and or even get prepared for the future of food.
+## Why ChefMate
+Every recipe available from ChefMate comes from a community of more than 5 hundred people. This extends to the photos, reviews, and ratings, which gives this particular app more of a social feel than others. One awesome feature is that you’re able to see what ingredients are needed and what recipes are the cheapest to make.  Aside from all of that, Allrecipes comes with all the usual features, like save your favorite recipes, and filter your search results by diet, cooking time, and foods you don’t like.
